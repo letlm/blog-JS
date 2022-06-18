@@ -6,4 +6,4 @@ texto.
 Para esta aplicação foi colocado em prática o fluxo de autenticação em APIs, bem como
 Também por em pratica o fluxo de autenticação em APIs. Além disso, foi utilizado JavaScript, CSS e HTML.
 
-- Link da aplicação:
+- Link da aplicação: https://psychic-invention-165e1ac8.pages.github.io/
