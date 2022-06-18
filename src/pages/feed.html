@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/public/feed.css"> 
+    <title>Feed</title>
+</head>
+<body>
+    <main id="main">
+        <header id="headerBlue">
+            <img class="imgHeader"src="" alt="ImagemDoUsuário">
+            <h1 class="nameUsuario"> </h1>
+            <button class="btnLogout">Logout</button>
+        </header>
+
+        <section class="sectionCenter">
+            <div class="divFirst">
+                <form action="#" class="postBlog">
+                    <input class="write" name="content" id="postContent" type="text" placeholder="Comece seu post incrível!" required>
+
+                    <button class="btnPost">+</button>
+                </form>
+            </div>
+
+            <div class="divSecond">
+                <form action="#" class="editBlog">
+                    <input class="write" name="content" id="editContent" type="text" placeholder="Edit seu post incrível!" required>
+        
+                    <button class="btnPost">+</button>
+        
+                    <input type="hidden" name="id" id="postId">
+                </form>
+            </div>
+
+            <div class="sectionSecond">
+                <ul>
+                
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    
+
+   <script type="module" src="/src/controllers/FormPost.js"></script>
+</body>
+</html>

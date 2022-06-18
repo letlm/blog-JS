@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto&display=swap');
+
+body {
+    background-color: rgba(243, 243, 243, 1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+form {
+    width: 428px;
+    height: 401px;
+    background: #6495ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    outline: none; 
+    padding: 0 0.5rem;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#exit {
+    position: relative;
+    margin-left: -420px;
+    margin-top: -90px;
+    margin-bottom: 100px;
+    width: 18px;
+    height: 29px;
+    left: 390px;
+    top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+#exit:hover{
+    cursor: pointer;
+}
+
+.title {
+    margin-top: -10px;
+    margin-bottom: 25px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.login {
+    width: 246px;
+    height: 40px;
+    left: 93px;
+    top: 85px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    text-align: justify;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5F5C5C;
+}
+
+#btnLogin {
+    width: 132px;
+    height: 42px;
+    left: 148px;
+    top: 329px;
+    background: #EDBC64;
+    border-radius: 5px;
+    border: 1px solid #EDBC64;
+    font-family: 'Montserrat';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#btnLogin:hover{
+    cursor: pointer;
+    background-color: rgb(253, 83, 83, 0.7);
+    color: #000000;
+    border:rgba(0, 0, 0, 0);
+}
+
+.mostrarModalErro{ 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    position: fixed;
+    top: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.aparecer {
+    display: flex; 
+}
+
+.boxModalErro {
+    padding: 12px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 90px;
+    border: 2px solid #EDBC64;
+    background-color: #EDBC64;
+    border-radius: 5px;
+    margin-top: -100px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+#fecharErro{
+    background-color:#6495ED;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+}

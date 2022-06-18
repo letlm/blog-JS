@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
+
+body {
+    background-color: rgba(243, 243, 243, 1);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSecond{
+    display: none;
+}
+
+.aparecer{
+    display: flex;
+}
+
+#postContent{
+    border-radius: 4px;
+}
+
+#headerBlue {
+    width: 100vw;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background: #6495ED;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imgHeader {
+    position: absolute;
+    width: 49px;
+    height: 46px;
+    left: 14px;
+    top: 7px;
+    border-radius: 100px;
+}
+
+.nameUsuario {
+    position: absolute;
+    width: 133px;
+    height: 22px;
+    left: 72px;
+    top: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
+.btnLogout {
+    width: 97px;
+    height: 30px;
+    margin-right: 35px;
+    top: 13px;
+    background: #EDBC64;
+    border: 1px solid #EDBC64;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.sectionCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divFirst {
+    display: flex;
+    margin-top: 20px;
+    width: 601px;
+    height: 97px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+.postBlog{
+    width: 601px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.write {
+    width: 601px;
+    height: 97px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #989898;
+    padding: 10px;
+}
+
+.btnPost {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #EDBC64;
+    background: #EDBC64;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8E7E7;
+    position: absolute;
+    margin-left: 545px;
+    margin-top: 45px;
+}
+
+.btnPost:hover {
+    cursor: pointer;
+}
+
+.sectionSecond {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    width: 601px;
+    height: 180px;
+}
+
+.posts {
+    height: 180px;
+    left: 313px;
+    top: 216px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgPost {
+    margin-top: 20px;
+    width: 71px;
+    height: 70px;
+    left: 334px;
+    top: 231px;
+    border-radius: 100px;
+}
+
+.titlePost {
+    width: 104px;
+    height: 20px;
+    margin-bottom: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.middle{
+    margin-top: 20px;
+    width: 351px;
+    
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 170px;
+}
+.textPost {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #5F5C5C;
+}
+
+.edit {
+    width: 38px;
+    height: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+ul li .edit a{
+    color: #6495ED;
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.remove {
+    outline-style: none;
+    width: 44px;
+    height: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration:none;
+    margin-bottom: 10px;
+}
+
+ul li .remove a{
+    color: #ED6464;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
+
+.date {
+    width: 64px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #989898;
+}
+
+.divSecond {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 226, 226, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.aparecer {
+    display: flex;    
+}
+
+.editBlog{
+    width: 601px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+#editContent{
+    margin-left: -8px;
+    border-radius: 4px;
+}

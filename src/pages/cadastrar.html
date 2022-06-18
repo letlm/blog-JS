@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/public/cadastrar.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <main>
+        <form action="#" class="usuario" name="usuarioo">
+            <button id="exit">X</button>
+
+            <h2 class="title">Cadastro</h2>
+
+            <input type="text" name="username" placeholder="Nome de usuário" class="login" maxlength="12" required />
+
+            <input type="email" name="email" placeholder="Email" class="login" required />
+
+            <input type="url" name="avatarUrl" placeholder="Foto de perfil" class="login" required />
+
+            <input type="password" name="password" placeholder="Senha" class="login"required />
+
+            <button id="btnRegister">Cadastrar</button>
+        </form>
+    </main>
+
+
+    <div id="modalErro" class="mostrarModalErro">
+        <div class="boxModalErro">
+            <span id="erroIndicado"> Usuário já cadastrado!</span>
+            <button id="fecharErro" type="button">X</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="/src/controllers/FormCadastro.js"></script>
+
+</body>
+
+</html>
